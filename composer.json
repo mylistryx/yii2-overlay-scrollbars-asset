@@ -1,0 +1,40 @@
+{
+  "name": "mylistryx/yii2-overlay-scrollbars-asset",
+  "description": "Yii2 OverlayScrollbars asset bundle",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Sergey Zhukovskiy",
+      "email": "mylistryx@gmail.com",
+      "homepage": "https://net23.ru"
+    }
+  ],
+  "keywords": [
+    "yii2",
+    "overlayscrollbars",
+    "overlay",
+    "scrollbar",
+    "asset",
+    "bundle",
+    "free",
+	"bootstrap5"
+  ],
+  "version": "2.10.1",
+  "readme": "readme.md",
+  "autoload": {
+    "psr-4": {
+      "yii\\OverlayScrollbars\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "yiisoft/yii2": "~2.0.50"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
