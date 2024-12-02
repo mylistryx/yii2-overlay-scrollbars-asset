@@ -33,6 +33,12 @@
       "type": "composer",
       "url": "https://asset-packagist.org"
     }
+  ]  
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
   ],  
   "require": {
     "php": ">=8.2",
