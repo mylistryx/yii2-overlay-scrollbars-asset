@@ -6,10 +6,12 @@ use yii\web\AssetBundle;
 
 class OverlayScrollbarsAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
+    public $sourcePath = __DIR__ . '/dist';
+	
     public $css = [
         'css/overlayscrollbars.min.css',
     ];
+	
     public $js = [
         'js/overlayscrollbars.browser.es6.min.js',
     ];

@@ -22,7 +22,7 @@
 	"bootstrap5"
   ],
   "version": "2.10.1",
-  "readme": "readme.md",
+  "readme": "README.md",
   "autoload": {
     "psr-4": {
       "yii\\OverlayScrollbars\\": "src/"
